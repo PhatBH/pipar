@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE        0
 #define FUNC        1
@@ -68,6 +69,14 @@
 &kp C_PAUSE  &caps_word  &to 0
 &kp INS      &kp HOME    &kp LC(C)
 &kp DELETE   &kp END     &kp LC(V)
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans             &trans
+&trans  &mmv MOVE_Y(-300)  &trans
+&trans  &trans             &trans
             >;
         };
     };
