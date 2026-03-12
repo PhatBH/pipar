@@ -65,9 +65,9 @@
 
         layer_2 {
             bindings = <
-&kp C_PAUSE  &kp PRINTSCREEN  &to 0
-&kp INS      &kp HOME         &kp LC(C)
-&kp DELETE   &kp END          &kp LC(V)
+&kp C_PAUSE  &kp K_MUTE  &to 0
+&kp INS      &kp HOME    &kp LC(C)
+&kp DELETE   &kp END     &kp LC(V)
             >;
         };
     };
