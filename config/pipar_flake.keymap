@@ -56,9 +56,9 @@
 
             display-name = "function";
             bindings = <
-&bt BT_CLR    &mmv MOVE_DOWN  &to 2
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2
-&bt BT_SEL 3  &bt BT_SEL 4    &trans
+&bt BT_CLR    &mmv MOVE_Y(-300)  &to 2
+&bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2
+&bt BT_SEL 3  &bt BT_SEL 4       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
